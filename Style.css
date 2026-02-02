@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eef1f5;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+}
+
+.form-section button {
+    width: 100%;
+    padding: 10px;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background: #27ae60;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background: #2ecc71;
+    color: white;
+}
+
+.issue-btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+}
